@@ -148,7 +148,7 @@ TCP/IP와는 달리 클라이언트에서 요청을 보낸 후 서버로부터 �
 
 ### HTTP 메시지 구조
 
-![Alt text](image.png)
+<img src="https://github.com/user-attachments/assets/a66a3fba-dc84-4af5-99f4-c61edcf4f1f0" width="400" height="300"/>
 
 HTTP에서는 클라이언트와 서버가 통신하기 위해 정형화된 데이터인 `HTTP 메시지`를 주고받는다.
 
@@ -489,7 +489,7 @@ HTTP나 IMAP 모두 메일 서버에 의해 유지되는 폴더를 관리하게 
 
 수신자가 사용자 에이전트로부터 메시지를 얻기 위해 SMTP를 사용할 수 없는데, 이는 SMTP가 푸시(Push) 프로토콜인 반면에 메시지를 얻는 것은 풀(pull) 동작이기 때문이다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/c2d7071a-d021-41a0-bfec-603e74a1b713/Untitled.png)
+![image](https://github.com/user-attachments/assets/66ffab20-8402-44d5-bf98-78971857d24d)
 
 <br />
 
