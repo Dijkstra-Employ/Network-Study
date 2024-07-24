@@ -106,7 +106,7 @@ DNS에서 전송하는 메시지의 크기는 작다. 그래서 유실될 확률
 
 - 재귀적 질의
 
-  ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/4eda1a43-18fa-450e-adb3-fa369bf3c672/Untitled.png)
+  ![image](https://github.com/user-attachments/assets/6402886d-8b6a-4653-be5e-5c67700ea33a)
 
   클라이언트가 로컬 네임 서버에게 도메인 네임을 질의하면, 로컬 네임 서버가 루트 네임 서버에게 질의하고,
 
@@ -118,7 +118,7 @@ DNS에서 전송하는 메시지의 크기는 작다. 그래서 유실될 확률
 
 - 반복적 질의
 
-  ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/3f9bccd1-6ce3-4cf5-bdc8-5a580b77c915/Untitled.png)
+  ![image](https://github.com/user-attachments/assets/921d6706-8a44-4fb6-92f0-ecb89b62823a)
 
   클라이언트가 로컬 네임 서버에게 IP 주소를 알고 싶은 도메인 네임을 질의 하면,
 
