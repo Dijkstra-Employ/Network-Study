@@ -35,7 +35,8 @@ GBN 프로토콜에서 송신자는 확인응답을 기다리지 않고 여러 �
 
 그러나 파이프라인에서 확인응답이 안 된 패킷의 최대 허용 수 N보다 크지 말아야 한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/8fe2fde3-fa0a-4695-bfca-5444e63f3bf1/Untitled.png)
+![image](https://github.com/user-attachments/assets/cb9f1e26-6f08-4e3d-9027-bef526956a18)
+
 
 GBN 프로토콜은 슬라이딩 윈도 프로토콜이라고 부른다.
 
