@@ -18,7 +18,8 @@ UDP가 지원하는 기능은 UDP 헤더를 보면 알 수 있다.
 
 `checksum` → 에러 detection
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/c0695da6-7da3-4359-97f8-94edae5e7374/Untitled.png)
+![image](https://github.com/user-attachments/assets/3b9602f7-f2c3-416f-960e-b9e11c802b5b)
+
 
 많은 링크 계층 프로토콜이 오류 검사를 제공하는데, 왜 UDP가 체크섬을 제공할까?
 
@@ -70,7 +71,7 @@ rdt 프로토콜이 상위 계층에 데이터를 전달하려고 할 때 `delev
 
 - reliable transfer over a reliable channel
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/755259f1-b7d1-4f3c-9590-33ad05d96341/Untitled.png)
+![image](https://github.com/user-attachments/assets/5437c7d3-8365-496c-87a4-ad1997901f81)
 
 통신 채널이 신뢰할 수 있기 때문에 sender는 계속 패킷을 만들어 보내주기만 하면 된다.
 
@@ -82,7 +83,7 @@ receiver는 패킷을 계속 받기만 하면 된다.
 
 - channel with bit errors
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/dac59277-c40e-4b2a-abe7-2bb07ab665ea/Untitled.png)
+![image](https://github.com/user-attachments/assets/843b9030-b255-4831-9fa9-0b78c6289f8b)
 
 underlying network가 LOSS는 안나지만 ERROR가 발생하는 상황
 
