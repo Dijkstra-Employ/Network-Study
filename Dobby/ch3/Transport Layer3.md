@@ -84,7 +84,9 @@ GBN 프로토콜에서 수신자는 순서가 잘못된 패킷들을 버린다.
 
 ### TCP 세그먼트 구조
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/44513d1a-3c6e-47bd-8f6c-a1e1d942ab3c/Untitled.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b4ab8b7-0c75-47e9-b390-27e0e7634697" width="50%">
+</p>
 
 | 출발지와 목적지 포트      | TCP는 UDP처럼 상위 계층 애플리케이션으로부터 다중화와 역다중화를 하는 데 사용된다.     |
 | ------------------------- | -------------------------------------------------------------------------------------- |
@@ -168,7 +170,9 @@ EstimatedRTT는 SampleRTT 값의 가중평균이며, 예쩐 샘플보다 최근 
 
 이를 위해 고안된 방법이, 타임아웃이 발생하기 전에 3번의 중복된 ACK를 받게 되면 세그먼트 재전송을 실시하는 것이다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/9cfbea95-0031-4f87-b9d8-0c3c22026c41/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8e2b8ed1-4906-483c-9f3e-38ea0003eb88" width="50%">
+</p>
 
 3개의 중복된 ACK를 수신할 때, TCP는 세그먼트의 타이머가 만료되기 이전에 손실 세그먼트를 재전송하는 빠른 재전송 (fast retransmit)을 한다.
 
@@ -196,7 +200,9 @@ TCP는 송신자가 수신 윈도(receive window)라는 변수를 유지하여 �
 
 이때 할당된 수신 버퍼의 크기를 RcvBuffer라고 명명한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/a91b1b00-9163-486c-ae71-e20f74b14a46/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca965980-08a3-4d6e-904f-728c0ec27365" width="50%">
+</p>
 
 연결은 흐름 제어 서비스를 제공하기 위해 변수 rwnd를 어떻게 사용할까?
 
@@ -220,7 +226,9 @@ TCP는 호스트가 상대 호스트의 수신 윈도가 0일 때, 1바이트 �
 
 또한 이 연결이 종료된 후에는 클라이언트와 서버 호스트들은 각각 서로에게 데이터를 포함하는 세그먼트를 보낼 수 있다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/27dda761-c911-4db7-ba8f-7e2fe00c4c02/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/127b52f1-a9ec-4229-ac6d-2b6610c8c83c" width="50%">
+</p>
 
 <br />
 
@@ -232,7 +240,9 @@ TCP는 호스트가 상대 호스트의 수신 윈도가 0일 때, 1바이트 �
 
 클라이언트 호스트는 FIN 세그먼트에 대한 ACK 세그먼트를 서버 호스트에게 전달한 후 종료한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/9292a090-3ea3-42d3-b3ff-8435c30c2718/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1599aa3c-0b79-4427-9e7d-da8f7d5203a2" width="50%">
+</p>
 
 클라이언트 호스트는 FIN 세그먼트를 받고 ACK를 보낸 후 일정 시간 대기한다.
 
@@ -240,6 +250,12 @@ TCP는 호스트가 상대 호스트의 수신 윈도가 0일 때, 1바이트 �
 
 [ 클라이언트 TCP에서 TCP 상태 전이의 일반적인 순서 ]
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/bb1128e4-073b-4639-9f71-c121ca2f2426/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9c2b7908-d758-49aa-ac45-bd26c90f08f8" width="50%">
+</p>
 
 [ 서버 측 TCP에서 TCP 상태 전이의 일반적인 순서 ]
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/470345c7-dcab-48a9-99d8-122b18ba8383" width="50%">
+</p>
