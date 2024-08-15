@@ -96,7 +96,9 @@ cwnd 값이 ssthresh와 같아지면, 슬로 스타트는 종료되고 TCP는 �
 - 만약 전송에 실패하면 윈도우 크기를 반으로 줄인다.
 - 윈도우 크기를 너무 조금씩 늘리기 때문에 네트워크의 모든 대역을 활용하여 제대로 된 속도로 통신하기까지 시간이 오래 걸린다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/5cda6eed-12ab-4a04-bdaf-84896ff7908b/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a48ebd61-91cd-4832-b8de-15a5522c969e" width="50%"/>
+</p>
 
 <br />
 
@@ -120,7 +122,9 @@ cwnd 값이 ssthresh와 같아지면, 슬로 스타트는 종료되고 TCP는 �
 
 `TCP Tahoe`는 처음에는 `Slow Start`를 사용하다가 임계점에 도달하면 `AIMD` 방식을 사용한다. 그러다가 `3 ACK Duplicated` 또는 `타임아웃`이 발생하면 혼잡이라고 판단하여 임계점은 혼잡이 발생한 윈도우 크기의 절반으로, 윈도우 크기는 1로 줄인다.
 
-!https://velog.velcdn.com/images%2Fmu1616%2Fpost%2Fb68716a3-f1b5-4a49-8740-8ba880ec13d8%2Fimage.png
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b76bac09-8ef9-4ddd-8ec5-87ee904b191c" width="50%"/>
+</p>
 
 위 그래프에서 청록색 선은 송신 측의 혼잡 윈도우 크기를, 굵은 검정선은 ssthresh 값을 보여주고 있다.
 
@@ -138,7 +142,9 @@ cwnd 값이 ssthresh와 같아지면, 슬로 스타트는 종료되고 TCP는 �
 
 즉, 윈도우 크기를 1로 줄이는 것이 아니라 반으로 줄이고 윈도우 크기를 선형적으로 증가시킨다. 그리고 임계점을 줄어든 윈도우 값으로 설정한다.
 
-!https://velog.velcdn.com/images%2Fmu1616%2Fpost%2F2c04e199-90ee-4bc0-8fbe-174eb58583c3%2Fimage.png
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2615114b-66e7-4a51-a956-08df3d7f4f68" width="50%"/>
+</p>
 
 만약, `타임아웃`이 발생하면 `TCP Tahoe`와 마찬가지로 윈도우 크기를 1로 줄이고 Slow Start를 진행한다. 이때는 임계점을 변경하지 않는다.
 
@@ -166,7 +172,9 @@ UDP의 전송속도는 애플리케이션이 결정한다.
 
 큐빅은 손실 전 속도인 W에 가까워지도록 TCP의 전송 속도를 빠르게 증가시킨 다음, W에 가까워지면 대역폭을 조심스럽게 탐지한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/fa98d521-3adb-440c-8568-0c006f0b5f5b/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3b2fbb58-1f69-455d-ab32-1f88c66e7a3c" width="50%"/>
+</p>
 
 congestion 상황은 짧은 시간내에 바뀌지 않기 때문에 해소된 후에 빠르게 다시 최대 throughput을 점유할 수 있는 방법이다.
 
@@ -188,7 +196,9 @@ ECN 비트의 한 설정은 라우터가 정체를 겪고 있음을 나타내기
 
 ECN 비트의 두번째 설정은 발신 호스트가 라우터에게 송신자와 수신자가 ECN을 사용할 수있음을 알리고, 이에 따라 ECN으로 표시된 네트워크 혼잡에 대한 응답으로 조치를 취할 수 있음을 알리는 데 사용된다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/f364f7a8-c2e5-4030-a600-9dfc8443b0f7/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2116b1bd-e85e-404d-afdb-8f69aa247707" width="50%"/>
+</p>
 
 수신 호스트의 TCP가 수신 데이터그램을 통해 ECN 혼잡 알림 표시를 수신하면, 수신 호스트의 TCP는 수신자-송신자 TCP ACK 세그먼트의 ECE(Explicit Congestion Notification Echo)비트를 설정하여 송신 호스트의 TCP에 혼잡 표시를 알린다.
 
