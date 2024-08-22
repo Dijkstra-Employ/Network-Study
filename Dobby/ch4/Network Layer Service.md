@@ -96,7 +96,9 @@ IP주소는 특정 호스트가 아닌 네트워크 인터페이스를 지칭한
 
 인터넷 네트워크 계층 패킷을 데이터그램이라고 부르며, IPv4 데이터그램 포맷은 다음과 같다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/17e78fb1-f1d5-4c17-9364-0fb374e72ed3/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08348b0d-d9c3-4122-88a7-cdf347697562" width="50%"/>
+</p>
 
 - 버전 번호<br />
   라우터는 버전 번호를 확인하여 데이터그램의 나머지 부분을 어떻게 해석할지 결정한다.
