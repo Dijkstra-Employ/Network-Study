@@ -63,7 +63,9 @@ DHCP는 클라이언트-서버 프로토콜이다.
 
 ### DHCP IP 할당 동작 과정
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/5050d316-8096-437f-a4c7-9c181dbc203b/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d6a322a2-1325-4489-a01a-13c09d81c256" width="70%"/>
+</p>
 
 1. **DHCP discover**<br />
    새롭게 도착한 호스트는 상호작용할 DHCP를 발견한다.
@@ -132,9 +134,13 @@ IPv4보다 큰 IP 주소 공간의 필요에 따라, 새로운 IP 프로토콜�
 
 ### IPv6 데이터그램 포맷
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/254c4aaf-7a26-40b2-a3f3-bdff18895726/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2b307301-f65a-406c-9ff9-61cc19aaba2c" width="70%"/>
+</p>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f34238a-246a-4ffd-8d8a-f3a45a9148ed/3253bfb3-6b47-4ce5-8b32-ac79b8f64914/image.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/594f11fd-53b3-433b-ab6f-7bb1bc064514" width="70%"/>
+</p>
 
 - **버전**<br />
   4비트 필드로 IP 버전 번호를 인식한다.
