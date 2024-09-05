@@ -10,7 +10,7 @@ IT 팀은 변화하는 비즈니스 요구 사항과 애플리케이션 요구 �
 
 ### 소프트웨어 정의 네트워킹(SDN)의 특징
 
-![Alt text](image.png)
+<img src="https://github.com/user-attachments/assets/cc77c51b-6ba9-4fdf-8751-76da21a9dff8" width="50%"/>
 
 1. 민첩성
 
